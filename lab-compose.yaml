@@ -47,7 +47,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab1:/home/ubuntu/
+      - $PWD/lab/lab6:/home/ubuntu/
   lab7:
     container_name: lab7
     networks:
@@ -55,7 +55,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab2:/home/ubuntu/
+      - $PWD/lab/lab7:/home/ubuntu/
   lab8:
     container_name: lab8
     networks:
@@ -63,7 +63,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab3:/home/ubuntu/
+      - $PWD/lab/lab8:/home/ubuntu/
   lab9:
     container_name: lab9
     networks:
@@ -71,7 +71,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab4:/home/ubuntu/
+      - $PWD/lab/lab9:/home/ubuntu/
   lab10:
     container_name: lab10
     networks:
@@ -79,7 +79,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab5:/home/ubuntu/
+      - $PWD/lab/lab10:/home/ubuntu/
   lab11:
     container_name: lab11
     networks:
@@ -87,7 +87,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab1:/home/ubuntu/
+      - $PWD/lab/lab11:/home/ubuntu/
   lab12:
     container_name: lab12
     networks:
@@ -95,7 +95,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab2:/home/ubuntu/
+      - $PWD/lab/lab12:/home/ubuntu/
   lab13:
     container_name: lab13
     networks:
@@ -103,7 +103,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab3:/home/ubuntu/
+      - $PWD/lab/lab13:/home/ubuntu/
   lab14:
     container_name: lab14
     networks:
@@ -111,7 +111,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab4:/home/ubuntu/
+      - $PWD/lab/lab14:/home/ubuntu/
   lab15:
     container_name: lab15
     networks:
@@ -119,7 +119,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab5:/home/ubuntu/
+      - $PWD/lab/lab15:/home/ubuntu/
   lab16:
     container_name: lab16
     networks:
@@ -127,7 +127,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab1:/home/ubuntu/
+      - $PWD/lab/lab16:/home/ubuntu/
   lab17:
     container_name: lab17
     networks:
@@ -135,7 +135,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab2:/home/ubuntu/
+      - $PWD/lab/lab17:/home/ubuntu/
   lab18:
     container_name: lab18
     networks:
@@ -143,7 +143,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab3:/home/ubuntu/
+      - $PWD/lab/lab18:/home/ubuntu/
   lab19:
     container_name: lab19
     networks:
@@ -151,7 +151,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab4:/home/ubuntu/
+      - $PWD/lab/lab19:/home/ubuntu/
   lab20:
     container_name: lab20
     networks:
@@ -159,7 +159,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab5:/home/ubuntu/
+      - $PWD/lab/lab20:/home/ubuntu/
   lab21:
     container_name: lab21
     networks:
@@ -167,7 +167,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab1:/home/ubuntu/
+      - $PWD/lab/lab21:/home/ubuntu/
   lab22:
     container_name: lab22
     networks:
@@ -175,7 +175,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab2:/home/ubuntu/
+      - $PWD/lab/lab22:/home/ubuntu/
   lab23:
     container_name: lab23
     networks:
@@ -183,7 +183,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab3:/home/ubuntu/
+      - $PWD/lab/lab23:/home/ubuntu/
   lab24:
     container_name: lab24
     networks:
@@ -191,7 +191,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab4:/home/ubuntu/
+      - $PWD/lab/lab24:/home/ubuntu/
   lab25:
     container_name: lab25
     networks:
@@ -199,7 +199,7 @@ services:
     image: lab/ubuntu:bionic
     volumes:
       - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
-      - $PWD/lab/lab5:/home/ubuntu/
+      - $PWD/lab/lab25:/home/ubuntu/
 networks:
   lab:
     driver: bridge
