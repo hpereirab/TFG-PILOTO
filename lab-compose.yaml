@@ -1,0 +1,208 @@
+version: '3'
+services:
+  lab1:
+    container_name: lab1
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab1:/home/ubuntu/
+  lab2:
+    container_name: lab2
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab2:/home/ubuntu/
+  lab3:
+    container_name: lab3
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab3:/home/ubuntu/
+  lab4:
+    container_name: lab4
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab4:/home/ubuntu/
+  lab5:
+    container_name: lab5
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab5:/home/ubuntu/
+  lab6:
+    container_name: lab6
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab1:/home/ubuntu/
+  lab7:
+    container_name: lab7
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab2:/home/ubuntu/
+  lab8:
+    container_name: lab8
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab3:/home/ubuntu/
+  lab9:
+    container_name: lab9
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab4:/home/ubuntu/
+  lab10:
+    container_name: lab10
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab5:/home/ubuntu/
+  lab11:
+    container_name: lab11
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab1:/home/ubuntu/
+  lab12:
+    container_name: lab12
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab2:/home/ubuntu/
+  lab13:
+    container_name: lab13
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab3:/home/ubuntu/
+  lab14:
+    container_name: lab14
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab4:/home/ubuntu/
+  lab15:
+    container_name: lab15
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab5:/home/ubuntu/
+  lab16:
+    container_name: lab16
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab1:/home/ubuntu/
+  lab17:
+    container_name: lab17
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab2:/home/ubuntu/
+  lab18:
+    container_name: lab18
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab3:/home/ubuntu/
+  lab19:
+    container_name: lab19
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab4:/home/ubuntu/
+  lab20:
+    container_name: lab20
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab5:/home/ubuntu/
+  lab21:
+    container_name: lab21
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab1:/home/ubuntu/
+  lab22:
+    container_name: lab22
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab2:/home/ubuntu/
+  lab23:
+    container_name: lab23
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab3:/home/ubuntu/
+  lab24:
+    container_name: lab24
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab4:/home/ubuntu/
+  lab25:
+    container_name: lab25
+    networks:
+      - lab
+    image: lab/ubuntu:bionic
+    volumes:
+      - $PWD/lab/data:/home/ubuntu/Desktop/data:ro
+      - $PWD/lab/lab5:/home/ubuntu/
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.0.0/24
